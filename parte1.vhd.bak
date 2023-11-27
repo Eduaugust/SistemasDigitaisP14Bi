@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 entity parte1 is
     port(
-        clk, reset_signal: in std_logic;
+        clk, reset_signal, entrada: in std_logic;
         saida: out std_logic_vector(1 downto 0)
     );
 end entity parte1;
